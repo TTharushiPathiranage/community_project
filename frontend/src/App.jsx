@@ -1,4 +1,5 @@
 import React from "react";
+import Home from './Pages/Home/Home';
 import NavBar from "./components/NavBar/NavBar";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
@@ -8,6 +9,7 @@ import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
+
     <>
       <div className="app">
         <NavBar />
@@ -19,6 +21,7 @@ const App = () => {
       </div>
       <Footer />
     </>
+
   );
 };
 
